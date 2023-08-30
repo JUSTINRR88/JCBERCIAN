@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos para el contenedor del cuadro */
+.cuadro {
+    border: 2px solid #ccc;
+    padding:  10rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilos para el título del cuadro */
+.cuadro h2 {
+    font-size: 2.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el texto del cuadro */
+.cuadro p {
+    font-size: 1.6rem;
+    color: #666;
+}
+
+.div.list_stakes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1.6rem);
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+.list_stakes .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
